@@ -12,7 +12,7 @@ app.use(express.static(publicDirectoryPath))
 // app.com/weather
 app.get('/weather', (req, res)=>{
     res.send({
-        forecast: 'It is snowing',
+        forecast: 'It is snowing', 
         location: 'Arrasate'
     })
 })
